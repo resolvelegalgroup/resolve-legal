@@ -1,0 +1,23 @@
+# Redirect domain aliases to primary domain
+http://www.resolvelegalgroup.com/* https://resolvelegalgroup.com/:splat 301!
+https://www.resolvelegalgroup.com/* https://resolvelegalgroup.com/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://resolve-legal-swb.netlify.app/* https://resolvelegalgroup.com/:splat 301!
+
+/what-clients-say-about-us /
+/awards-and-membership /about-us
+/family-law /services/family-law
+/community-support-donations /other-programs
+/lunch-learn-program /other-programs/lunch-learn-program
+/alternative-dispute-resolution /services/alternative-dispute
+/real-estate /services/real-estate
+/wills-estates /services/wills-and-estates
+/international-and-extra-jurisdictional-matters /services/family-law#international-extra-jurisdictional-matters
+/comprehensive-services /services/comprehensive-services
+/team /our-team
+/client-support-coordination /client-support
+/programs /other-programs
+/your-family-matters-talk-radio /resources/family-matters-podcast
+/contact-us /contact
+/cant-afford-a-lawyer /afford-lawyer
